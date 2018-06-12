@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exo json</title>
+  </head>
+  <body>
+      <script type="text/javascript">
+
+    var courses = {};
+    var a = new XMLHttpRequest();
+    a.open('GET', 'http://localhost/Exo/JS/Exo%20json/test.json', true);
+    a.onreadystatechange = function() {
+      if (a.readyState == 4 && a.status == 200){
+        courses = JSON.parse(a.responseText);
+        for (var i = 0; i < courses.length; i++) {
+          var p = document.createElement('p');
+          p.innerHTML = courses[i].bois1;
+          document.body.appendChild(p);
+          console.log(courses[i]);
+        }
+      }
+    };
+    a.send(null);
+
+
+
+
+
+
+
+      </script>
+  </body>
+</html>

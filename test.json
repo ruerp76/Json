@@ -1,0 +1,23 @@
+[{
+  "bois1": [
+    { "THIBAR": "BOIS BALSA FIBRE OFF 60 ",
+      "DONIC": "BOIS PERSSON SEVEN",
+      "ANDRO": "BOIS CS V OFF "
+    }
+  ],
+
+  "bois2": [
+    { "THIBAR": "BOIS RAPID CARBON LIGHT ",
+      "DONIC": "BOIS WALDNER DOTEC CARBON",
+      "ANDRO": "BOIS TREIBER Z OFF "
+    }
+  ],
+
+  "bois3": [
+    { "THIBAR": "BOIS IV S SGS",
+      "DONIC": "BOIS WALDNER SENSO V1",
+      "ANDRO": "BOIS CS V OFF-"
+    }
+  ]
+}
+]
